@@ -1,0 +1,37 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M422.81 112.28 a29.3 29.3 0 1 0 58.6 0 a29.3 29.3 0 1 0 -58.6 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M389.85 318.13 a31.98 31.98 0 1 0 63.96 0 a31.98 31.98 0 1 0 -63.96 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M123.83 236.36L169.3 236.36L169.3 266.07L123.83 266.07z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1216.65 78.34L1263.76 78.34L1263.76 86.31L1216.65 86.31z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1162.79 269.79a46.94 46.94 0 1 0 0.58-93.88z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M892.98 294.72L930.96 294.72L930.96 332.7L892.98 332.7z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M595.12 364.63L625.66 364.63L625.66 371.18L595.12 371.18z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M294.56 218.28a12.93 12.93 0 1 0 25.8 1.87z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M5.23 409.53a13.62 13.62 0 1 0 12.14-24.38z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M168.72 347.04 a33.87 33.87 0 1 0 67.74 0 a33.87 33.87 0 1 0 -67.74 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M228.82 372.68a52.34 52.34 0 1 0 93.12-47.8z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M652.96 492L683.61 492L683.61 522.65L652.96 522.65z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1281.48 559.14L1307.91 559.14L1307.91 576.42L1281.48 576.42z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1278.95 342.23 a24.32 24.32 0 1 0 48.64 0 a24.32 24.32 0 1 0 -48.64 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1167.63 256.75L1202.98 256.75L1202.98 300.04L1167.63 300.04z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M452.81 81.89a49.36 49.36 0 1 0-66.73 72.76z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M46.78 86.08L52.83 86.08L52.83 92.13L46.78 92.13z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M72.26 173.98 a6.05 6.05 0 1 0 12.1 0 a6.05 6.05 0 1 0 -12.1 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M719.49 75.8L729.46 75.8L729.46 124.69L719.49 124.69z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1187.89 52.24L1223.05 52.24L1223.05 87.4L1187.89 87.4z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M77.8 517.92L89.17 517.92L89.17 571.68L77.8 571.68z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M670.06 499.34 a28.26 28.26 0 1 0 56.52 0 a28.26 28.26 0 1 0 -56.52 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M924.04 521.59L979.89 521.59L979.89 577.44L924.04 577.44z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M446.47 391.53L456.83 391.53L456.83 419.96L446.47 419.96z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M1257.44 230.55L1271.12 230.55L1271.12 244.23L1257.44 244.23z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M579.39 95.32L622.24 95.32L622.24 138.17L579.39 138.17z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M542.97 199.89L576.05 199.89L576.05 232.97L542.97 232.97z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M953.89 116.62 a25.93 25.93 0 1 0 51.86 0 a25.93 25.93 0 1 0 -51.86 0z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M418.12 8.51L418.32 8.51L418.32 8.71L418.12 8.71z' fill='%23e73635'%3e%3c/path%3e%3cpath d='M1337.85 315.36a54.26 54.26 0 1 0-36.87-102.06z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M723 122.13L758.53 122.13L758.53 157.66L723 157.66z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1328.97 290.7 a25.46 25.46 0 1 0 50.92 0 a25.46 25.46 0 1 0 -50.92 0z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M379.29 433.63L423.53 433.63L423.53 477.87L379.29 477.87z' fill='%23037b0b'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 10px 7px 5px black ;
+}
+textarea{
+    width: 400px;
+    border: none;
+    outline: none;
+    box-shadow: 10px 7px 5px black ;
+}
+button{
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 7px 7px;
+    cursor: pointer;
+}
